@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "loading_tips": {
+    "enabled": true,
+    "tip_area": {
+      "offset": [0, 0],
+      "anchor_from": "bottom_left",
+      "anchor_to": "bottom_left",
+      "space_gap": 2,
+      "visible": ["$options_screen", "$title_screen"]
+    },
+    "tips": [
+      "tips.game.1",
+      "tips.game.2"
+    ]
+  },
+  "loading_trivia": {
+    "enabled": true,
+    "trivia_area": {
+      "offset": [0, 0],
+      "anchor_to": "top_right",
+      "anchor_from": "top_right",
+      "space_gap": 2,
+      "visible": ["$options_screen", "$title_screen"]
+    },
+    "trivia": [
+      "trivia.game.0",
+      "trivia.game.1"
+    ]
+  }
+}
